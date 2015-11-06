@@ -1,5 +1,9 @@
+/* Make page fit in window size */
 html,body {
-    height:100%;}
+    height:100%;
+}
+
+/* Modify Buttons */
 .btn-info {
     background-color: #787878;
     border-color: #fff;
@@ -9,6 +13,14 @@ html,body {
     border-radius: 0px;
 }
 
+/* Modify Images */
+.img-responsive {
+    max-height: 270px;
+    max-width: 270px;
+
+}
+
+/* Modify Jumbotron */
 .jumbotron {
     height: 100%;
     position: relative;
@@ -17,6 +29,7 @@ html,body {
     height: 100%; 
     background-size: cover;
     overflow: hidden;
+    margin: 0;
 }
 
 /* Keep the header text size in relation to view point of window */
