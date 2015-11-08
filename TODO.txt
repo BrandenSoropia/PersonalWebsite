@@ -1,0 +1,9 @@
+1) KEEP THUMBNAILS SQUARE IN SIZE, i.e. LENGTH == WIDTH
+2) 
+
+Homepage TODO's:
+DONE! - placeholders for homepage section thumbnails 
+DONE! - get rid of that random white bar between nav and jumbotron
+- need website logo
+DONE! (need logo though) - link website logo to be a clickable button to home page
+DONE! - remove nav bar rounded edges
