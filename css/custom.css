@@ -1,6 +1,7 @@
 /* Make page fit in window size */
 html,body {
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 /* Make the nav bar a box (not with rounded edges) */
@@ -18,6 +19,7 @@ html,body {
 }
 
 /* Modify Jumbotron */
+/*
 .jumbotron {
     height: 100%;
     position: relative;
@@ -28,9 +30,11 @@ html,body {
     overflow: hidden;
     margin: 0;
 }
-
+*/
 /* Keep the header text size in relation to view point of window */
+/*
 .jumbotron h1, h2 {
     color: white;
     font-size: 5vmax;
 }
+*/

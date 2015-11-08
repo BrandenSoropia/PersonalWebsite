@@ -7,3 +7,6 @@ DONE! - get rid of that random white bar between nav and jumbotron
 - need website logo
 DONE! (need logo though) - link website logo to be a clickable button to home page
 DONE! - remove nav bar rounded edges
+- get a better background picture 
+- make pictures round
+- figure out why can't scroll through site when window is shrunk
