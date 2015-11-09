@@ -1,0 +1,14 @@
+/* Make page fit in window size */
+html {
+    height: 100%;
+}
+
+body { 
+    height: 100%;
+}
+
+p {
+    position: inherit;
+    color: white;
+}
+

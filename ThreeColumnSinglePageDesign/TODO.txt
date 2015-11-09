@@ -1,0 +1,17 @@
+1) KEEP THUMBNAILS SQUARE IN SIZE, i.e. LENGTH == WIDTH
+2) 
+
+Homepage TODO's:
+DONE! - placeholders for homepage section thumbnails 
+DONE! - get rid of that random white bar between nav and jumbotron
+- need website logo
+DONE! (need logo though) - link website logo to be a clickable button to home page
+DONE! - remove nav bar rounded edges
+- get a better background picture 
+- make pictures round
+DONE!- figure out why can't scroll through site when window is shrunk
+- keep summaries proportional to images
+- remove double scroll bar
+
+Resume TODO's:
+- Make resume look like D&D character sheet
