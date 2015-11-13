@@ -1,19 +1,30 @@
-#portfolio {
-    background: #DB4DFF;
-    height: 1000px;
+html {
+    margin: 0;
+    height: 100%;
 }
 
-#about {
-    background: #CC00FF;
-    height: 1000px;
+body {
+    background: url("../images/stump_self.jpg") no-repeat center center;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    overflow: auto;
 }
 
-#connect {
-    background: #8F00B3;
-    height: 1000px;
+#textbox {
+    background-color: white;
+    opacity: 0.6;
+    margin-top: 10vh;
+    max-height: inherit;
+    max-width: inherit;
+    overflow: scroll;
 }
 
-h1 {
-    margin-bottom: 0px;
-    margin-top: 0px;
+p {
+    color: black;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }

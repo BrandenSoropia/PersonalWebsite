@@ -1,4 +1,36 @@
+.active a {
+    opacity: 1.0;
+}
+
+/* Makes nav bar fit entire screen when inside container. */
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 .navbar {
     margin-bottom: 0px;
     border-radius: 0px;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: white;
+    background-color: black;
+    opacity: .8;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
 }
