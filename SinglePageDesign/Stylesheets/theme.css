@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background: url("../images/stump_self.jpg") no-repeat center center;
+    background: grey url("../images/stump_self.jpg") no-repeat center center;
     height: 100%;
     width: 100%;
     background-size: cover;
