@@ -10,9 +10,16 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script>
+        // interval is in milliseconds. 1000 = 1 second - so 1000 * 10 = 10 seconds
+        $('.carousel').carousel({
+            interval: 1000 * 10
+        });
+    </script>
+    
     <link rel="stylesheet" type="text/css" href="stylesheets/custom.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic|Arimo:400,400italic' rel='stylesheet' type='text/css'>
     
     <body>
         <div id="welcome">
@@ -30,18 +37,30 @@
                 <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="#">Resume</a></li> 
                     <li><a href="#">Contact</a></li> 
                     </ul>
                 </div>
               </div>
             </nav>
-
+            
             <h1>Branden Soropia</h1>
+            <p id="introline">From imagination to creation</p>
         </div>
+
         <!--- About Me Slide Show --->
-        <div id="#about">
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8 col-centered">
+                        <h2>A brief background</h2>
+                <p class="blurb"> Sigh view am high neat half to what. Sent late held than set why wife our. If an blessing building steepest. Agreement distrusts mrs six affection satisfied. Day blushes visitor end company old prevent chapter. Consider declared out expenses her concerns. No at indulgence conviction particular unsatiable boisterous discretion. Direct enough off others say eldest may exeter she. Possible all ignorant supplied get settling marriage recurred. </p>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
             <div id="myPhotos" class="carousel slide" data-ride="carousel1">
                 
                 <!-- Indicators -->
@@ -54,43 +73,38 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                      <img src="../SinglePageDesign/images/self_palico.jpg" alt="Giant Palico Selfie">
+                        <img src="../SinglePageDesign/images/palico_self.jpg">
+                        <div class="carousel-caption">
+                            <h3>Avid Gamer</h3>
+                            <p class="photoDescription">The atmosphere in Chania has a touch of Florence and Venice.</p>
+                        </div>
                     </div>
 
                     <div class="item">
-                      <img src="../SinglePageDesign/images/self_grove.jpg" alt="Dreams to Travel">
-                    </div>
-
-                    <div class="item">
-                      <img src="img_flower.jpg" alt="Comic Book Lover">
+                        <img src="../SinglePageDesign/images/self_grove.jpg" alt="Dreams to Travel">
+                        <div class="carousel-caption">
+                            <h3>Traveler</h3>
+                            <p class="photoDescription">The atmosphere in Chania has a touch of Florence and Venice.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
             
             <!-- Left and right controls -->
-            <a class="left carousel-control" href="#myPhotos" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myPhotos" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-            <p> Size 12 Font: <br>
-Seen you eyes son show. Far two unaffected one alteration apartments celebrated but middletons interested. Described deficient applauded consisted my me do. Passed edward two talent effect seemed engage six. <br>
-
-           <p>On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day. Stairs regret at if matter to. On as needed almost at basket remain. By improved sensible servants children striking in surprise. <br> </p>
-
-            <p>Answer misery adieus add wooded how nay men before though. Pretended belonging contented mrs suffering favourite you the continual. <br>
-                                <p> Size 12 Font: <br>
-Seen you eyes son show. Far two unaffected one alteration apartments celebrated but middletons interested. Described deficient applauded consisted my me do. Passed edward two talent effect seemed engage six. <br>
-
-           <p>On ye great do child sorry lived. Proceed cottage far letters ashamed get clothes day. Stairs regret at if matter to. On as needed almost at basket remain. By improved sensible servants children striking in surprise. <br> </p>
-
-            <p>Answer misery adieus add wooded how nay men before though. Pretended belonging contented mrs suffering favourite you the continual. <br>
-            </p>
+                <a class="left carousel-control" href="#myPhotos" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myPhotos" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
         
+        <div id="resume">
+        </div>
+        
+        <div id="contact">
+        </div>
     </body>
 </html>

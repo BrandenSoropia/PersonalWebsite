@@ -1,6 +1,14 @@
 #about {
-    background-color: white;
-    overflow: scroll;
+    background-color:#1a1a1a;
+    overflow: auto;
+    
+}
+
+.blurb {
+    color: darkgrey;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    
 }
 
 body {
@@ -17,13 +25,33 @@ html {
 }
 
 h1 {
-    margin: 0;
     padding-top: 25vh;
+    margin: 0;
     text-align: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 7.5vw;
+}
 
+h2 {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+    font-family: 'Arimo', sans-serif;
+    margin-top: px;
+    font-size: 4.5vw;
+    text-align: center;
+}
+
+#introline {
+    color: white;
+    padding-top: 2vmax;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 3vw;
 }
 
 p {
@@ -31,6 +59,12 @@ p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+}
+
+.photoDescription {
+    color: white;
+    text-align: center;
+    font-size: 2.5vw;
 }
 
 #welcome {

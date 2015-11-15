@@ -1,6 +1,8 @@
-Homepage:
 DONE! - Fix collapsible navigation not working
-- When window is small, make textbox scrollable so that you don't scroll down past bachground
 - Make a logo
 -> If needed, give it a different background to make it pop
 - To the right, put my name beside logo
+DONE! - Make nav bar visible on all parts of website
+DONE! - Make Carousel fixed size
+DONE! - figure out how to incorporate text changing with carousel
+- get a comic book picture
