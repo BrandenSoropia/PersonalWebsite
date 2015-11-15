@@ -1,9 +1,6 @@
 body {
-    background: white url("../images/stump_self.jpg") no-repeat center center;
     height: 100%;
     width: 100%;
-    background-size: cover;
-    position: relative;
     margin: 0;
     overflow: auto;
 }
@@ -15,12 +12,13 @@ html {
 }
 
 h1 {
-    padding-top: 20vh;
+    margin: 0;
+    padding-top: 25vh;
     text-align: center;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 7.5vw;
-    height: 1000px;
+
 }
 
 p {
@@ -32,11 +30,14 @@ p {
     margin: 0;
 }
 
-#textbox {
-    background-color: white;
-    opacity: 1;
-    margin-top: 10vh;
-    max-height: 80vh;
-    max-width: 100vh;
+#about {
     overflow: scroll;
+}
+
+#welcome {
+    background: white url("../images/stump_self.jpg") center center no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    position: relative;
 }
