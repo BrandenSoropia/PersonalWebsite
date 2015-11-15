@@ -1,5 +1,5 @@
 Homepage:
-- Fix collapsible navigation not working
+DONE! - Fix collapsible navigation not working
 - When window is small, make textbox scrollable so that you don't scroll down past bachground
 - Make a logo
 -> If needed, give it a different background to make it pop

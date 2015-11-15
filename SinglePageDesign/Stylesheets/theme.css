@@ -17,8 +17,8 @@ body {
     background-color: white;
     opacity: 0.6;
     margin-top: 10vh;
-    max-height: inherit;
-    max-width: inherit;
+    max-height: 80vh;
+    max-width: 100vh;
     overflow: scroll;
 }
 
