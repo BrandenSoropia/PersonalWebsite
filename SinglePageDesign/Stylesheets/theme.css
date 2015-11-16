@@ -8,7 +8,11 @@
     color: darkgrey;
     font-family: 'Arimo', sans-serif;
     text-align: center;
-    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vh;
+    max-width: 100%;
+    max-height: 50vh;
 }
 
 body {
@@ -16,7 +20,7 @@ body {
     width: 100%;
     margin: 0;
     overflow: auto;
-}
+} 
 
 html {
     margin: 0;

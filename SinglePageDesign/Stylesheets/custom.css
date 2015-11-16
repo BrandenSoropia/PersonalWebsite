@@ -2,10 +2,10 @@
     opacity: 1.0;
 }
 
-.col-centered {
+/* .col-centered {
     float: none;
     margin: 0 auto;
-}
+} */
 
 /* Makes nav bar fit entire screen when inside container. */
 .container {
