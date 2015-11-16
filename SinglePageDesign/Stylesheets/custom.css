@@ -15,6 +15,25 @@
     margin-right: 0px;
 }
 
+.carousel {
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.carousel-caption {
+    padding-bottom: 0;
+}
+
+.carousel-indicators {
+    bottom: 5px;
+    margin-bottom: 0;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+}
+
 /* Makes images in carousel fit one size */
 .carousel-inner {
     height: 100%;
