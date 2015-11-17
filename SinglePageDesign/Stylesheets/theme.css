@@ -1,4 +1,4 @@
-#about, #resume, #contact {
+#about, #resume, #contact, #portfolio {
     background-color: #1a1a1a;
     overflow: auto;
     padding-bottom: 10vh;
@@ -22,6 +22,10 @@ body {
     margin: 0;
     overflow: auto;
 } 
+
+footer {
+    background-color: #1a1a1a;
+}
 
 html {
     margin: 0;
@@ -88,6 +92,10 @@ p {
     font-size: 2vw;
     margin-bottom: 1vh;
     opacity: 0.8;
+}
+
+span {
+    color: white;
 }
 
 #welcome {

@@ -9,4 +9,7 @@ DONE! - figure out how to incorporate text changing with carousel
 - fix <hr> section dividers such that they match background colour
 - change background of footer
 - change colour of email icon in footer
-- add Linked In icon, blog icon (potentially, or just use a nav button for it only)
+DONE! - add Linked In icon, blog icon (potentially, or just use a nav button for it only)
+- contact info 
+    -> use only Toronto, ON
+    -> 

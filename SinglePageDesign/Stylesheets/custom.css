@@ -45,6 +45,12 @@
     max-height: 100%;
 }
 
+.glyphicon {
+    color: white;
+    font-size: 3vmax;
+    opacity: .5;
+}
+
 .item {
     width: 100%;
     min-height: 100%;
