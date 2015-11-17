@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic|Arimo:400,400italic' rel='stylesheet' type='text/css'>
     
-    <body>
+    <body data-spy="scroll" data-target=".navbar" data-offset="20">
         <div id="welcome">
             <!--- Navigation --->
              <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -32,14 +32,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span> 
                   </button>
-                  <a class="navbar-brand" href="#">Branden Soropia</a>
+                  <a class="navbar-brand" href="#welcome">Branden Soropia</a>
                 </div>
                 <div class="collapse navbar-collapse" id="myNavbar">
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="smooth active"><a href="#">Home</a></li>
-                    <li><a class="smooth" href="#about">About</a></li>
-                    <li><a href="#">Resume</a></li> 
-                    <li><a href="#">Contact</a></li> 
+                    <li><a href="#welcome">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li> 
+                    <li><a href="#contact">Contact</a></li> 
                     </ul>
                 </div>
               </div>
@@ -95,11 +95,22 @@
             </div>
         </div>
         
+        <hr>
+        
         <div id="resume">
+            <h2>Resume</h2>
+            
         </div>
         
+        <hr>
+        
         <div id="contact">
+            <h2>Contact</h2>
         </div>
-    
+        
+        <footer>
+            <a href="mailto:b.soropia@gmail.com" class="glyphicon glyphicon-envelope">
+            </a>
+        </footer>        
     </body>
 </html>

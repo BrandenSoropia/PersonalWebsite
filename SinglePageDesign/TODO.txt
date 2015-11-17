@@ -6,3 +6,7 @@ DONE! - Make nav bar visible on all parts of website
 DONE! - Make Carousel fixed size
 DONE! - figure out how to incorporate text changing with carousel
 - get a comic book picture
+- fix <hr> section dividers such that they match background colour
+- change background of footer
+- change colour of email icon in footer
+- add Linked In icon, blog icon (potentially, or just use a nav button for it only)
