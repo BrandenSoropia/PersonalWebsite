@@ -1,7 +1,7 @@
 General:
 DONE! - Fix collapsible navigation not working
 - Make a logo
--> If needed, give it a different background to make it pop
+    -> If needed, give it a different background to make it pop
 - To the right, put my name beside logo
 DONE! - Make nav bar visible on all parts of website
 DONE! - Make Carousel fixed size
@@ -12,6 +12,7 @@ DONE! - figure out how to incorporate text changing with carousel
 DONE! - change background of footer
 DONE! - add Linked In icon, blog icon (potentially, or just use a nav button for it only)
 - Find a better background colour
+    -> Set nav active background to pop out as well
 
 About:
 - Write smnall description of me

@@ -67,6 +67,7 @@
 
 .navbar-inverse .navbar-nav .active a {
     opacity: .8;
+    background-color: lightgray;
 }
 
 .navbar-inverse .navbar-nav li a {
@@ -75,7 +76,7 @@
 
 .navbar-inverse .navbar-nav li a:hover {
     color: white;
-    background-color: black;
+    background-color: lightgray;
     opacity: .8;
 }
 
