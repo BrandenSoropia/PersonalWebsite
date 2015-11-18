@@ -8,18 +8,18 @@ DONE! - Make Carousel fixed size
 DONE! - figure out how to incorporate text changing with carousel
 - get a comic book picture
 - get a professional picture
-- fix <hr> section dividers such that they match background colour
+DONE! - fix <hr> section dividers such that they match background colour
 DONE! - change background of footer
 DONE! - add Linked In icon, blog icon (potentially, or just use a nav button for it only)
 - Find a better background colour
     -> Set nav active background to pop out as well
 
 About:
-- Write smnall description of me
+DONE! - Write smnall description of me
 - Get more pictures of stuff I like
 - Write lines for each Interest in carousel
 
-Coontact:
+Contact:
 - contact info 
     -> use only Toronto, ON
     -> post phone number
@@ -28,8 +28,8 @@ DONE! - Fix portfolio columns overlapping when window gets small
 - Place professional picture here
 
 Portfolio:
-- Centre portfolio columns
-- Make iframe for videos expand to window width whenwindow is small
+DONE! - Centre portfolio columns
+- Make iframe for videos expand to window width when window is small
 
 Resume:
 - Style Resume section
