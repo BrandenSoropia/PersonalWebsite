@@ -35,3 +35,6 @@ Resume:
 - Style Resume section
 - Fix responsiveness to screen size in general
 - Rewrite past job descriptions as paragraphs, not bullets
+
+Footer:
+- align email icon

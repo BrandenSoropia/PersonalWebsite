@@ -12,8 +12,10 @@
 }
 
 .carousel {
-    width: 60vmax;
+    width: 50vmax;
     margin: 0 auto;
+    max-width: 100vw;
+    max-height: 100vw;
 }
 
 .carousel-caption {
@@ -41,10 +43,12 @@
     max-height: 100%;
 }
 
-.glyphicon {
+ .glyphicon {
     color: white;
-    font-size: 3vmax;
+    font-size: 32px;
     opacity: .5;
+     width: 32px;
+     height: 32px;
 }
 
 .item {
@@ -56,8 +60,9 @@
 .navbar {
     margin-bottom: 0px;
     border-radius: 0px;
-    background-color: transparent;
-    border-color: transparent;
+    background-color: black;
+    border-color: black;
+    opacity: 0.6;
 
 }
 
@@ -67,7 +72,7 @@
 
 .navbar-inverse .navbar-nav .active a {
     opacity: .8;
-    background-color: lightgray;
+    background-color: black;
 }
 
 .navbar-inverse .navbar-nav li a {

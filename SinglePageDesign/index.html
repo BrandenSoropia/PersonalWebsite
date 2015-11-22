@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700' rel='stylesheet' type='text/css'>
     
-    <body data-spy="scroll" data-target=".navbar" data-offset="20">
+    <body data-spy="scroll" data-target=".navbar" data-offset="0">
         <div id="welcome">
             <!--- Navigation --->
              <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -39,8 +39,8 @@
                         <li><a href="#welcome">Home</a></li>
                         <li><a href="#about">About</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#resume">Resume</a></li> 
-                        <li><a href="#contact">Contact</a></li> 
+                        <li><a href="resume.html">Resume</a></li> 
+                        <li><a href="contact.html">Contact</a></li> 
                     </ul>
                 </div>
               </div>
@@ -54,7 +54,7 @@
         <div id="about">
             <div>
                 <h2>A brief background</h2>
-                <p class="blurb">I'm the type of guy who sees something, finds it to be really, really cool, and devotes all his time towards learning about it (and thus gave birth to this website and low GPA!). My current interests are animation, web and game development. On my free time, I like to playing games or guitar,q and enjoying a comic with a latte and cookie. </p>
+                <p class="blurb">I'm the type of guy who sees something, finds it to be really, really cool, and devotes all his time towards learning about it (and thus gave birth to this website and low GPA!). My current interests are animation, web and game development. On my free time, I like to playing games or guitar, and enjoying a comic with a latte and cookie.</p>
             </div>
             <div id="myPhotos" class="carousel slide" data-ride="carousel1">
                 
@@ -69,18 +69,10 @@
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <img src="../SinglePageDesign/images/palico_self.jpg">
-                        <div class="carousel-caption">
-                            <h3>Gamer</h3>
-                            <p class="photoDescription">Games have been a fun way to relax and hangout with friends.</p>
-                        </div>
                     </div>
 
                     <div class="item">
                         <img src="../SinglePageDesign/images/self_grove.jpg" alt="Dreams to Travel">
-                        <div class="carousel-caption">
-                            <h3>Traveler</h3>
-                            <p class="photoDescription">There's nothing like finding hidden treasures and venturing into the unknown.</p>
-                        </div>
                     </div>
                 </div>
             
@@ -94,131 +86,43 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-                    
-            <hr>
+
         </div>
-    
         
+        <hr class="symbol">
+        
+        <!--- Portfolio --->
         <div id="portfolio">
             <h2>Portfolio</h2>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-6 col-sm-6 col-md-6 center-block">
+                    <div class="col-sm-4 col-md-4 center-block">
                         <p class="blurb">In Production! Here's a glimpse:</p>
                         <img class="portfolio-pictures" src="images/low_poly_t_rex_by_pamelamoo-d853m25.jpg" alt="low poly T-Rex">
                         <p class="blurb">Thanks to <a href="http://fav.me/d853m25">pamelamoo</a> for the awesome inspiration! (Even though I never met you, your art is awesome!) <br></p>
                     </div>
-                    <div class="col-xs-6 col-sm-6 col-md-6 center-block">
+                    <div class="col-sm-4 col-md-4 center-block">
                         <p class="blurb">In Production! I plan to make an animation, not as awesome and polished as this but a really basic and super short one to learn! Here's one I remember from my childhood (all credits to Pixar):</p>
                         <iframe class="portfolio-videos" src="https://www.youtube.com/embed/2mOqWxM5PyY" frameborder="0" allowfullscreen></iframe>
                     </div>
-                </div>
-            </div>
-            
-            <hr>
-        </div>
-        
-        <!--- Remove this style when actually styling --->
-        <div id="resume" style="color: white">
-            
-            <h2>Resume</h2>
-            <div class="container-fluid">
-                <!--- Skills --->
-                <div class="row">
-                    <div class="col-xs-4 col-sm-4 col-md-4">
-                        <h3 class="resume-category">Technologies</h3>
-                    </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4">
-                        <h3 class="sub-category">Comfortable With</h3>
-                        <ul class="list-items">
-                            <li>Java</li>
-                            <li>Python</li>
-                            <li>C</li>
-                            <li>HTML5/ CSS3</li>
-                            <li>Bootstrap</li>
-                            <li>Version Control (Git, SVN)</li>
-                            <li>Brackets</li>
-                            <li>Eclipse</li>
-                            <li>Game Maker Studio</li>
-                            <li>Wing IDE</li>
-                            <li>Blender</li>
-                            <li>GIMP</li>
-                            <li>Mac OS X</li>
-                            <li>Windows</li>
-                        </ul>
-                    </div>
-                    <div class="col-xs-4 col-sm-4 col-md-4">
-                        <h3 class="sub-category">Experience With</h3>
-                        <ul class="list-items">
-                            <li>Javascript</li>
-                            <li>Android Studio</li>
-                            <li>Unity</li>
-                            <li>Linux</li>
-                        </ul>
-                    </div>
-                </div>
-                <!--- Work Experience --->
-                <div class="row">
-                    <div class="col-xs-4 col-sm-4 col-md-4">
-                        <h3>Work Experience</h3>
-                    </div>
-                    <div class="col-xs-8 col-sm-8 col-md-8">
-                        <h4>Variety Sports Camp Counselor</h4>
-                        <p>YMCA June 24, 2013 - August 23, 2013</p>
-                        <p>
-• Planned and implemented daily activities <br>
-• Oversaw the safety and well being of all campers <br>
-• Maintained clean and organized camp grounds and equipment</p>
-                        
-                        <h4>Cashier</h4>
-                        <p>McDonald’s March 11, 2012 – July 19, 2012
-                            Cashier</p>
-                        <p>
-• Responsible for money management <br>
-• Maintained a clean and organized workplace <br>
-• Maintained a friendly and approachable atmosphere</p>
-                    </div>
-                </div>
-                <!--- Volunteer Experience --->
-                <div class="row">
-                    <div class="col-xs-4 col-sm-4 col-md-4">
-                        <h3>Volunteer Experience</h3>
-                    </div>
-                    <div class="col-xs-8 col-sm-8 col-md-8">
-                        <h4>Subcommittee Head</h4>
-                        <p>Hart House Monthly Open Mic Committee Sept 2013 – April 2015</p>
-                        <p>
-• Advertised and hosted events <br>
-• Coordinated performance schedules and equipment setup <br>
-• Responded to performer’s inquiries and needs</p>
-                        
-                        <h4>Dog Shelter Volunteer</h4>
-                        <p>Etobicoke Humane Society January 19, 2014 – August 24, 2014</p>
-                        <p>
-• Provided food, water, grooming and exercise<br>
-• Maintained a clean and organized shelter<br>
-• Recorded well being and behaviour of animals</p>
-                        
-                        <h4>General Assistant/Youth Council Member</h4>
-                        <p>Castleview Wychwood Towers Long Term Care Home August 2010 – January 2013</p>
-                        <p>
-• Organized and participated in events with residents<br>
-• Assisted residents with mobility<br>
-• Maintained friendly and professional relationship with residents</p>
+                    <div class="col-sm-4 col-md-4 center-block">
+                        <p class="blurb">blah blah blah</p>
                     </div>
                 </div>
             </div>
-            
-            <hr>
         </div>
         
-        <div id="contact">
-            <h2>Contact</h2>
-                <span><a href="https://ca.linkedin.com/pub/branden-soropia/b1/36b/136" style="text-decoration:none;">Linked In</a></span>
-                <span>Email:<a href="mailto:b.soropia@gmail.com"> b.soropia@gmail.com
-                </a></span>
-        </div>
+        <footer>
+            <a href="https://ca.linkedin.com/pub/branden-soropia/b1/36b/136">
+                <img id="online-profiles-icons" src="images/In-2C-128px-TM_grey.png" alt="LinkedIn">
+            </a>
+            <a class="glyphicon glyphicon-envelope" href="mailto:b.soropia@gmail.com" alt="b.soropia@gmail.com">
+            </a>
+            <a href="https://github.com/BrandenSoropia" alt="Github">
+                <img id="online-profiles-icons" src="images/GitHub-Mark-120px-plus.png">
+            </a>
+            <p id="made-by">Created and Designed by Branden Soropia</p>
+        </footer>
 
-                
     </body>
 </html>
