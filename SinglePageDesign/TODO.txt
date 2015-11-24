@@ -1,6 +1,6 @@
 General:
 DONE! - Fix collapsible navigation not working
-- Make a logo
+DONE! - Make a logo
     -> If needed, give it a different background to make it pop
 - To the right, put my name beside logo
 DONE! - Make nav bar visible on all parts of website
@@ -17,7 +17,6 @@ DONE! - add Linked In icon, blog icon (potentially, or just use a nav button for
 About:
 DONE! - Write smnall description of me
 - Get more pictures of stuff I like
-- Write lines for each Interest in carousel
 
 Contact:
 - contact info 
@@ -29,12 +28,9 @@ DONE! - Fix portfolio columns overlapping when window gets small
 
 Portfolio:
 DONE! - Centre portfolio columns
-- Make iframe for videos expand to window width when window is small
+DONE! - Make iframe for videos expand to window width when window is small
 
 Resume:
 - Style Resume section
 - Fix responsiveness to screen size in general
 - Rewrite past job descriptions as paragraphs, not bullets
-
-Footer:
-- align email icon

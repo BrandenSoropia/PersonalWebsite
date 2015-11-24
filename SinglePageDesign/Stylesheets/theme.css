@@ -27,6 +27,13 @@ body {
     overflow: auto;
 } 
 
+.connect, .connect > a {
+    padding-left: 5vh;
+    padding-right: 5vh;
+    color: white;
+    opacity: .8;
+}
+
 #contact-info {
     color: white;
 }
@@ -34,8 +41,14 @@ body {
 footer {
     background-color: #1a1a1a;
     padding-top: 10vh; 
-    padding-bottom: 10vh;
+    padding-bottom: 3vh;
     display: block;
+}
+
+#footer-logo {
+    opacity: .5;
+    width: 75px;
+    height: 75px;
 }
 
 html {
@@ -89,6 +102,26 @@ hr {
     border-color: black;
 }
 
+/* Below hr stuff was taken from
+* http://www.techrepublic.com/blog/web-designer/customize-horizontal-rules-to-add-some-flair/ 
+*/
+hr.symbol {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.symbol:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
 #introline {
     color: white;
     padding-top: 2vmax;
@@ -120,9 +153,15 @@ hr {
 }
 
 #made-by {
+    font-size: 1em;
     color: white;
     opacity: .4;
     margin-top: 5vh;
+}
+
+#nav-logo {
+    height: 50px;
+    width: 50px;
 }
 
 .photoDescription {
@@ -163,23 +202,4 @@ span {
     width: 100%;
     background-size: cover;
     position: relative;
-}
-/* Below hr stuff was taken from
-* http://www.techrepublic.com/blog/web-designer/customize-horizontal-rules-to-add-some-flair/ 
-*/
-hr.symbol {
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
-}
-hr.symbol:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7em;
-    font-size: 1.5em;
-    padding: 0 0.25em;
-    background: white;
 }
