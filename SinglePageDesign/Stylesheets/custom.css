@@ -60,9 +60,10 @@
  .glyphicon {
     color: white;
     font-size: 32px;
-    opacity: .5;
-     width: 32px;
-     height: 32px;
+    opacity: .8;
+    width: 32px;
+    height: 32px;
+    margin-top: 10vh;
 }
 
 .item {

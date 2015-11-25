@@ -199,7 +199,7 @@ span {
 
 #welcome {
     background: white url("../images/stump_self.jpg") center center no-repeat;
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-size: cover;
     position: relative;

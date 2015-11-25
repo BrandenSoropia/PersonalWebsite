@@ -13,6 +13,7 @@ DONE! - change background of footer
 DONE! - add Linked In icon, blog icon (potentially, or just use a nav button for it only)
 - Find a better background colour
     -> Set nav active background to pop out as well
+- Get a new cover photo for Portfolio and Contact
 
 About:
 DONE! - Write smnall description of me
