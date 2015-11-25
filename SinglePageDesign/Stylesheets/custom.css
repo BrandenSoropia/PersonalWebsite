@@ -2,6 +2,20 @@
     opacity: 1.0;
 }
 
+.btn-default {
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    border: 3px solid white;
+    margin-top: 10vh;
+}
+
+.btn-default:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
 
 /* Makes nav bar fit entire screen when inside container. */
 .container {
