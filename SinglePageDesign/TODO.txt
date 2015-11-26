@@ -2,7 +2,6 @@ General:
 DONE! - Fix collapsible navigation not working
 DONE! - Make a logo
     -> If needed, give it a different background to make it pop
-- To the right, put my name beside logo
 DONE! - Make nav bar visible on all parts of website
 DONE! - Make Carousel fixed size
 DONE! - figure out how to incorporate text changing with carousel
@@ -11,27 +10,20 @@ DONE! - figure out how to incorporate text changing with carousel
 DONE! - fix <hr> section dividers such that they match background colour
 DONE! - change background of footer
 DONE! - add Linked In icon, blog icon (potentially, or just use a nav button for it only)
-- Find a better background colour
+DONE! - Find a better background colour
     -> Set nav active background to pop out as well
 - Get a new cover photo for Portfolio and Contact
+- Fix arrow pointing down such that is stays within the #welcome div
 
 About:
 DONE! - Write smnall description of me
 - Get more pictures of stuff I like
-
-Contact:
-- contact info 
-    -> use only Toronto, ON
-    -> post phone number
-    -> figure out how to use contact form
-DONE! - Fix portfolio columns overlapping when window gets small
-- Place professional picture here
 
 Portfolio:
 DONE! - Centre portfolio columns
 DONE! - Make iframe for videos expand to window width when window is small
 
 Resume:
-- Style Resume section
-- Fix responsiveness to screen size in general
+DONE! - Style Resume section
+DONE! - Fix responsiveness to screen size in general
 - Rewrite past job descriptions as paragraphs, not bullets
