@@ -1,4 +1,4 @@
-#about, #resume, #contact, #portfolio {
+#about, #resume, #portfolio {
     background-color: white;
     overflow-y: auto;
     overflow-x: hidden;
@@ -86,12 +86,10 @@ h3 {
 }
 
 h4 {
-    color: white;
+    color: black;
     font-family: 'Open Sans', sans-serif;
-    opacity: 0.8;
     margin-bottom: 0;
-    font-size: 
-    
+    font-weight: 700;
 }
 
 hr {
@@ -134,16 +132,20 @@ hr.symbol:after {
 }
 
 .job-duration {
-    color: black;
+    color: #595959;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .job-description {
-    color: black;
+    color: #595959;
 }
 
 .list-items {
     opacity: 0.8;
     color : black;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #online-profiles-icons {
@@ -180,10 +182,15 @@ hr.symbol:after {
     max-height: 100%;
 }
 
-.resume-category {
+.resume-section {
     color: black;
     margin-bottom: 2.5vh;
-    font-size: 5vh;
+    font-size: 2.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-align: left;
+    padding-left: 50px;
+    opacity: .7;
 }
 
 span {
@@ -193,9 +200,11 @@ span {
 .sub-category {
     color: black;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 2vw;
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: left;
 }
+
 
 #welcome {
     background: white url("../images/stump_self.jpg") center center no-repeat;

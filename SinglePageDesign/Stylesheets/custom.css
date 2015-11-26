@@ -57,6 +57,10 @@
     max-height: 100%;
 }
 
+.col-md-8 {
+    text-align: left;
+}
+
  .glyphicon {
     color: white;
     font-size: 32px;
@@ -109,6 +113,6 @@
 }
 
 .row {
-    margin-top: 10vh;
+    margin-top: 2.5vh;
     margin-bottom: 10vh;
 }
