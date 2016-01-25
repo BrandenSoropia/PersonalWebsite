@@ -1,23 +1,26 @@
 General:
 DONE! - Fix collapsible navigation not working
-DONE! - Make a logo
+DONE! - Make a placeholder logo
     -> If needed, give it a different background to make it pop
 DONE! - Make nav bar visible on all parts of website
 DONE! - Make Carousel fixed size
 DONE! - figure out how to incorporate text changing with carousel
-- get a comic book picture
-- get a professional picture
 DONE! - fix <hr> section dividers such that they match background colour
 DONE! - change background of footer
 DONE! - add Linked In icon, blog icon (potentially, or just use a nav button for it only)
 DONE! - Find a better background colour
     -> Set nav active background to pop out as well
+DONE! - Fix arrow pointing down such that is stays within the #welcome div
+- Get more pictures of stuff I like
+    -> get a comic book picture
+    -> get a professional picture
 - Get a new cover photo for Portfolio and Contact
-- Fix arrow pointing down such that is stays within the #welcome div
+- Fix #welcome div's content such that it doesn't spill out when window's height is small
+- Make an actual logo
 
 About:
 DONE! - Write smnall description of me
-- Get more pictures of stuff I like
+- Rewrite "A brief background" to not sound like a douche
 
 Portfolio:
 DONE! - Centre portfolio columns

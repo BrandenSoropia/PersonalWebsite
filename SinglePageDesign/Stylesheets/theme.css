@@ -3,7 +3,7 @@
     overflow-y: auto;
     overflow-x: hidden;
     padding-top: 10vh;
-
+    text-align: center;
 }
 
 .blurb {
@@ -162,13 +162,6 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-#online-profiles-icons {
-    background-color: white;
-    width: 32px;
-    height: 32px;
-    opacity: .4;
-}
-
 #made-by {
     font-size: 1em;
     color: white;
@@ -179,6 +172,13 @@ html {
 #nav-logo {
     height: 50px;
     width: 50px;
+}
+
+#online-profiles-icons {
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    opacity: .4;
 }
 
 .photoDescription {
@@ -208,8 +208,7 @@ html {
     font-size: 2.5em;
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    text-align: left;
-    padding-left: 50px;
+    text-align: center;
     opacity: .7;
 }
 
@@ -222,9 +221,13 @@ span {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     font-size: 1.5em;
-    text-align: left;
+    text-align: center;
 }
 
+ul {
+    display: block;
+    text-align: center;
+}
 
 #welcome {
     background: white url("../images/stump_self.jpg") center center no-repeat;

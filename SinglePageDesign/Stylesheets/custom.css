@@ -58,9 +58,14 @@
     max-height: 100%;
 }
 
+.col-md-4 {
+    background-color: aqua;
+}
+
 .col-md-8 {
     text-align: left;
 }
+
 
  .glyphicon {
     color: white;
