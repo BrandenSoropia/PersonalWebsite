@@ -5,4 +5,4 @@ Potential clients/employers/partners, who were referred from Hacker News, Twitte
 
 - Tell a better story about me on every page.
 - Put the best content on my site in front of users.
-- Make the action items (email, Twitter, etc) easier to click.
+-  Make the action items (email, Twitter, etc) easier to click.

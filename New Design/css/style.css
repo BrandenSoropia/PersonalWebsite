@@ -1,0 +1,28 @@
+#about {
+    background-color: #E6C88C;
+    height: 1000px;
+}
+
+#contact {
+    background-color: #C0BA96;
+    height: 1000px;
+}
+
+#projects {
+    background-color: #D7803B;
+    height: 1000px;
+}
+
+#resume {
+    background-color: #D5975A;
+    height: 1000px;
+}
+
+#summary {
+    background-image: url("../images/stump_self_flipped.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+}
+
