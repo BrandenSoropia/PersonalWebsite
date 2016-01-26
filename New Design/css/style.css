@@ -1,3 +1,9 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+    width: 100%;
+    
+}
 #about {
     background-color: #E6C88C;
     height: 1000px;
@@ -19,9 +25,12 @@
 }
 
 #summary {
+    background: #44424D;
+/*
     background-image: url("../images/stump_self_flipped.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
+*/
     height: 500px;
     width: 100%;
 }
