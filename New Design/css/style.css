@@ -12,8 +12,8 @@ html, body {
     height: 1000px;
 }
 
-#header {
-    
+#download {
+    background-color: inherit;
 }
 
 .no-padding {
@@ -38,6 +38,10 @@ html, body {
 #sidebarNav {
     background: #44424D;
     color: white;
+}
+
+#skills {
+    background-color: #E6C88C; 
 }
 
 #summary {
