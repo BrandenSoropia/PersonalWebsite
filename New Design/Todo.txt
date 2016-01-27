@@ -1,0 +1,5 @@
+- make background show entire picture in summary
+- make sidebarNav sections evenly spread out over its column
+- centre text in sidebarNav
+- remove current position highlight from navbar-brand
+- change sections to icons in sidebarNav

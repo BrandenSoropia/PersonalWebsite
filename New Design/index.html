@@ -13,49 +13,53 @@
 
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/custom.css">
-        <link rel="stylesheet" type="text/css" href="css/custom2.css">
         
         
     </head>
     
-    <body>
+    <body data-spy="scroll" data-target="#sidebarNav" data-offset="250">
+        <div id="header">
+        </div>
+        
         <div id="container">
-            <!-- Sidebar Navigation Handler -->
-            <div class="col-xs-3 col-sm-3 sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">~ Logo Here ~</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </div> 
-            <div class="col-xs-9 col-sm-9">
-                <div id="summary">
-                </div>
+            <div class="row">
+                <!-- Sidebar Navigation Handler -->
+                <nav class="col-xs-4 col-sm-2 no-padding" id="sidebarNav">
+                    <ul class="nav nav-pills nav-stacked " data-spy="affix" data-offset-top="0">
+                        <li class="navbar-header">
+                            <a class="navbar-brand" href="#summary">WebSiteName</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#resume">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="col-xs-8 col-sm-10 no-padding">
+                    <div id="summary">
+                    </div>
 
-                <div id="about">
-                </div>
+                    <div id="about">
+                    </div>
 
-                <div id="projects">
-                </div>
+                    <div id="projects">
+                    </div>
 
-                <div id="resume">
-                </div>
+                    <div id="resume">
+                    </div>
 
-                <div id="contact">
+                    <div id="contact">
+                    </div>
                 </div>
-            </div>
-
-            
-            </div>
+            </div>  
+        </div>
     </body>
 </html>

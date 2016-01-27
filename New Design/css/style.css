@@ -1,17 +1,22 @@
 html, body {
-    height: 100%;
-    overflow-x: hidden;
-    width: 100%;
-    
+    position: relative;
 }
 #about {
     background-color: #E6C88C;
     height: 1000px;
 }
 
+.affix {
+/*    top: 20px;*/
+}
+
 #contact {
     background-color: #C0BA96;
     height: 1000px;
+}
+
+#header {
+    
 }
 
 #projects {
@@ -24,14 +29,20 @@ html, body {
     height: 1000px;
 }
 
+.row {
+    background: #44424D;
+}
+
+#sidebarNav {
+    background: #44424D;
+    color: white;
+}
+
 #summary {
     background: #44424D;
-/*
     background-image: url("../images/stump_self_flipped.jpg"); 
     background-size: cover;
     background-repeat: no-repeat;
-*/
     height: 500px;
     width: 100%;
 }
-
