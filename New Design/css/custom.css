@@ -1,8 +1,17 @@
-.navnar-header > a:active{
-    background: #44424D;
+.affix, .affix-top {
+/*    width: 100%;*/
+/* stops width change on scroll but can't adjust width   position: fixed;*/
 }
-.no-padding {
-    padding: 0 !important;
-    margin: 0 !important;
+
+.col-xs-4, .col-sm-2 {
+    padding: 0;
+}
+
+.nav-pills > li {
+
+}
+.nav-pills > li > a {
+    text-align: center;
+    border-radius: 0px;
 }
 
