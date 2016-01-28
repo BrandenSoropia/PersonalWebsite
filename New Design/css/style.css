@@ -1,5 +1,6 @@
 html, body {
     position: relative;
+    overflow-x: hidden;
 }
 
 #about {
@@ -14,6 +15,28 @@ html, body {
 
 #download {
     background-color: inherit;
+    text-align: center
+}
+
+#download > button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#download > h3, #download > p {
+    color: #fff;
+}
+
+/* Change the dimensions when changing
+* sidebar section sizes */
+li > a > img {
+    opacity: .8;
+    
+    height: 5vmin;
+    min-height: 50px;
+    min-width: 50px;
+    width: 5vmin;
+    
 }
 
 .no-padding {
@@ -41,7 +64,8 @@ html, body {
 }
 
 #skills {
-    background-color: #E6C88C; 
+    background-color: #E6C88C;
+    height: inherit;
 }
 
 #summary {
@@ -51,6 +75,26 @@ html, body {
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
+}
+
+/* Below hr stuff was taken from
+* http://www.techrepublic.com/blog/web-designer/customize-horizontal-rules-to-add-some-flair/ 
+*/
+hr.symbol {
+    padding: 0;
+    border: none;
+    border-top: medium double #fff;
+    color: #fff ;
+/*    text-align: center;*/
+}
+hr.symbol:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1em;
+    padding: 0 0.1em;
+    background: inherit;
 }
 
 .ul {

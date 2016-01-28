@@ -3,3 +3,5 @@
 DONE! - centre text in sidebarNav
 - remove current position highlight from navbar-brand
 - change sections to icons in sidebarNav
+- fix container (and potentially all .col) class adding in extra padding to right (the psace between navbar nad content, and right side of resume section)
+- 
