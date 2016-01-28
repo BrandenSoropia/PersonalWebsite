@@ -1,17 +1,20 @@
 .affix, .affix-top {
-/*    width: 100%;*/
-/* stops width change on scroll but can't adjust width   position: fixed;*/
+    width: inherit;
+    position: fixed;
 }
 
 .col-xs-4, .col-sm-2 {
     padding: 0;
+    height: inherit;
 }
 
-.nav-pills > li {
-
+.nav {
+    height: 100%;
 }
+
 .nav-pills > li > a {
-    text-align: center;
     border-radius: 0px;
+    padding: 27%;
+    text-align: center;
 }
 
