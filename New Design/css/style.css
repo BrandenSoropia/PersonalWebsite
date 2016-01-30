@@ -1,6 +1,7 @@
 html, body {
     position: relative;
     overflow-x: hidden;
+    background-color: #44424D;
 }
 
 #about {
@@ -51,7 +52,7 @@ li > a > img {
 
 #resume {
     background-color: #D5975A;
-    height: 1000px;
+/*    height: 1000px;*/
 }
 
 .row {
