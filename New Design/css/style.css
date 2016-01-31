@@ -1,12 +1,21 @@
 html, body {
-    position: relative;
-    overflow-x: hidden;
     background-color: #44424D;
+    min-width: 500px;
+    overflow-x: hidden;
+    position: relative;
 }
 
 #about {
     background-color: #E6C88C;
-    height: 1000px;
+    text-align: center;
+}
+
+#aboutme {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block; 
+    width: 75%;
 }
 
 #contact {
@@ -20,12 +29,19 @@ html, body {
 }
 
 #download > button {
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
 }
 
 #download > h3, #download > p {
     color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-top: 25px;
+/*    text-align: center;*/
 }
 
 /* Change the dimensions when changing
@@ -76,6 +92,25 @@ li > a > img {
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
+}
+
+#summarytitle {
+    margin: 0;
+}
+
+#thumbnail-gallery {
+    padding-bottom: 50px;
+}
+
+#websitesummary {
+    background: rgba(68, 66, 77, .6);
+    color: #fff;
+    height: 100%;
+    margin-bottom: 50%;
+    margin-top: 50%;
+    max-height: 300px;
+    min-height: 100px;
+    
 }
 
 /* Below hr stuff was taken from

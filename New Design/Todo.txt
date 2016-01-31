@@ -5,3 +5,4 @@ DONE! - centre text in sidebarNav
 - change sections to icons in sidebarNav
 - fix container (and potentially all .col) class adding in extra padding to right (the psace between navbar nad content, and right side of resume section)
 - link lightbox to gallery using the stuff from github
+- fix "time for intro" line being pushed to far right for some reason
