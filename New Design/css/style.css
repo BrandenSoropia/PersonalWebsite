@@ -86,12 +86,14 @@ li > a > img {
 }
 
 #summary {
-    background: #44424D;
     background-image: url("../images/stump_self_flipped.jpg"); 
+    background-position: 50% 50%; /* or: center center */
     background-size: cover;
+/*
     background-repeat: no-repeat;
     height: 500px;
     width: 100%;
+*/
 }
 
 #summarytitle {
