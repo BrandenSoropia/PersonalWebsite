@@ -19,13 +19,11 @@ html, body {
 }
 
 #contact {
-    bottom: 0;
-    position: absolute; 
+    text-align: center;
 }
 
 #container {
     height: 100vh;
-    position: relative;
 }
 
 #download {
@@ -98,6 +96,7 @@ nav {
 ul {
     display: table;
     width: inherit;
+    height: 100vh;
 }
 
 ul > li {
@@ -144,7 +143,3 @@ hr.symbol:after {
     background: inherit;
 }
 
-.ul {
-    width: inherit;
-    display: inline-block;
-}
