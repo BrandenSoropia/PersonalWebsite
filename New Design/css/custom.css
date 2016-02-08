@@ -43,10 +43,9 @@
 }
 
 
-.nav-pills >li.active > a {
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
     /* Black section indicator for sidebar navigation */
     background: rgba(0 , 0, 0, .6);
-    color: #fff;
 }
 
 
