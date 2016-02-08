@@ -19,8 +19,13 @@ html, body {
 }
 
 #contact {
-    background-color: #C0BA96;
-    height: 1000px;
+    bottom: 0;
+    position: absolute; 
+}
+
+#container {
+    height: 100vh;
+    position: relative;
 }
 
 #download {
@@ -105,6 +110,7 @@ ul > li > a {
     text-align: center;
 /*    margin: 0 5px;*/
     background: inherit;
+    height: auto;
 }
 
 #websitesummary {
@@ -140,4 +146,5 @@ hr.symbol:after {
 
 .ul {
     width: inherit;
+    display: inline-block;
 }

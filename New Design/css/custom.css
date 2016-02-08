@@ -16,10 +16,11 @@
 
 .container {
     margin: 0;
+    padding: 0;
 }
 
 .nav {
-    height: 100%;
+/*    height: 100%;*/
 }
 
 .nav-pills {
@@ -37,6 +38,7 @@
 
 .row {
     background-color: inherit;
+    margin-left: 0;
 }
 
 .thumbnail {
