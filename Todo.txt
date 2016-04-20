@@ -1,0 +1,9 @@
+DONE! - make background show entire picture in summary
+- make sidebarNav sections evenly spread out over its column
+DONE! - centre text in sidebarNav
+DONE! - remove current position highlight from navbar-brand
+- change sections to icons in sidebarNav
+- fix container (and potentially all .col) class adding in extra padding to right (the psace between navbar nad content, and right side of resume section)
+- link lightbox to gallery using the stuff from github
+DONE! - fix "time for intro" line being pushed to far right for some reason
+- resize nav to fit column
